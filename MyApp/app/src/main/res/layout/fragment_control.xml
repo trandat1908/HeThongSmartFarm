@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+   >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="-119dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TableRow
+                android:background="@drawable/background_color">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/manual"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <Switch
+                    android:id="@+id/switch_ManualMode"
+                    android:layout_width="@dimen/auto_dp_50"
+                    android:layout_height="@dimen/auto_dp_30"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/auto_dp_20"
+                    android:focusable="false"
+                    android:textSize="30sp"
+                    android:thumb="@drawable/rectangle_thumb"
+                    android:track="@drawable/rectangle_track" />
+            </TableRow>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="150dp"
+                        android:layout_height="@dimen/auto_dp_30"
+                        android:layout_gravity="center"
+                        android:text="@string/machine"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="@dimen/auto_dp_150"
+                        android:layout_height="@dimen/auto_dp_30"
+                        android:layout_gravity="center"
+                        android:text="@string/status"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/auto_dp_30"
+                        android:layout_gravity="center"
+                        android:text="@string/parameter"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ligh" />
+
+                    <Switch
+                        android:id="@+id/switch2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:thumb="@drawable/rectangle_thumb"
+                        android:track="@drawable/rectangle_track" />
+
+                    <TextView
+                        android:id="@+id/den1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/auto_dp_15"
+                        android:textColor="#FF0000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/fan1"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/fan11tran" />
+
+                    <Switch
+                        android:id="@+id/switch3"
+                        android:layout_width="@dimen/auto_dp_50"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:thumb="@drawable/rectangle_thumb"
+                        android:track="@drawable/rectangle_track" />
+                </TableRow>
+
+
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/pump1"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/pumptran" />
+
+                    <Switch
+                        android:id="@+id/switch4"
+                        android:layout_width="@dimen/auto_dp_50"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:thumb="@drawable/rectangle_thumb"
+                        android:track="@drawable/rectangle_track" />
+
+                    <TextView
+                        android:id="@+id/bomnuoc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/auto_dp_15"
+                        android:textColor="#FF0000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/mist"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/misttran" />
+
+                    <Switch
+                        android:id="@+id/switch5"
+                        android:layout_width="@dimen/auto_dp_50"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:thumb="@drawable/rectangle_thumb"
+                        android:track="@drawable/rectangle_track" />
+
+                    <TextView
+                        android:id="@+id/phunsuong1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/auto_dp_15"
+                        android:textColor="#FF0000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/background_color"
+                    >
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Automation"
+                        android:textColor="#000000"
+                        android:textSize="30dp"
+                        tools:ignore="HardcodedText" />
+
+                    <Switch
+                        android:id="@+id/switch_AutoMode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/auto_dp_20"
+                        android:focusable="false"
+                        android:textSize="30sp"
+                        android:thumb="@drawable/rectangle_thumb"
+                        android:track="@drawable/rectangle_track" />
+                </TableRow>
+
+
+
+                <LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="180dp"
+                        android:layout_height="@dimen/auto_dp_30"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:progressDrawable="@drawable/control_volume"
+                        android:text="@string/temp_greater"
+                        android:textColor="#000000" />
+
+                    <SeekBar
+                        android:id="@+id/see1"
+                        android:layout_width="190dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/control_volume" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="180dp"
+                        android:layout_height="@dimen/auto_dp_30"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/temp_smaller"
+                        android:textColor="#000000" />
+
+                    <SeekBar
+                        android:id="@+id/see2"
+                        android:layout_width="190dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/control_volume" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="180dp"
+                        android:layout_height="@dimen/auto_dp_30"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/hum_smaller"
+                        android:textColor="#000000" />
+
+                    <SeekBar
+                        android:id="@+id/see3"
+                        android:layout_width="190dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:progressDrawable="@drawable/control_volume" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="180dp"
+                        android:layout_height="@dimen/auto_dp_30"
+                        android:layout_gravity="center"
+                        android:text="@string/soil_smaller"
+                        android:textColor="#000000" />
+
+                    <SeekBar
+                        android:id="@+id/see4"
+                        android:layout_width="190dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:progressDrawable="@drawable/control_volume" />
+                </LinearLayout>
+            </TableLayout>
+    </ScrollView>
+</LinearLayout>
